@@ -1,7 +1,7 @@
 # TD2S Converter - 电报帐户 TData 到 .session 转换器。
 ## 将 Telegram TData 格式文件转换为 Telegram .session 格式（或 .session + .json）。
 
- * Description is also available in English [TD2S Coverter EN](https://github.com/telegram-prime/Telegram-TData-to-Session-Converter)
+ * Description is also available in English [see TD2S Coverter EN](https://github.com/telegram-prime/Telegram-TData-to-Session-Converter)
  * Описание программы так же доступно на русском языке. См. [TD2S Coverter RUS](https://github.com/telegram-prime/Telegram-TData-to-Session-Converter-RU/) [in progress]
 
 
