@@ -37,17 +37,20 @@
 - [YouTube](https://youtu.be/UnGHt6zBJWQ)
 
 
-##  联系人：
-- 电子邮件： manager[@]telegramprime.net
-- Telegram: @TGG_Sales
+##  联系方式:
+- Email:    manager[@]telegramprime.net
+- Telegram: [Send message](https://telegramprime.com/telegram-contact)
+- ICQ:      [Send message](https://telegramprime.com/icq-contact)
+- TamTam:   [Send message](https://telegramprime.com/tamtam-contact)
+- Discord:  [Send message](https://telegramprime.com/discord-contact)
 
-* 或通过我们 Telegram PRIME 网站上的联系表：
-- 网络: https://telegramprime.net/ - EN Version
-- 网络: https://telegramprime.com/ - RU Version
+* 或通过我们网站上的联系表格：
+- Wеb: https://telegramprime.net/ - EN Version
+- Wеb: https://telegramprime.com/ - RU Version
 
 
-## 捐款：
-* [给我们买杯咖啡：)](https://commerce.coinbase.com/checkout/a0495346-539e-48df-9b43-880a3b93dc8b)
+## 捐赠:
+* [给我们买杯咖啡 :)](https://nowpayments.io/donation/telegramprime)
 * 谢谢！
 
 
