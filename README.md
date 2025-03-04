@@ -1,20 +1,21 @@
-# TD2S转换器 - 将Telegram TData账户转换为.session（或session+json）的转换器。
-## 将 Telegram TData 格式文件转换为 Telegram .session 格式（或 .session + .json）。
+# TD2S转换器 - 将Telegram TDATA账户转换为SESSION（或SESSION+JSON）的转换器。
+## 将 Telegram TDATA 格式文件转换为 Telegram SESSION 格式（或 SESSION+JSON）。
 
  * Description is also available in English [see TD2S Coverter EN](https://github.com/telegram-prime/Telegram-TData-to-Session-Converter)
  * Описание программы так же доступно на русском языке. См. [TD2S Coverter RU](https://github.com/telegram-prime/Telegram-TData-to-Session-Converter-RU/)
 
 
 ## 功能特点:
- - 将Telegram账户的TData格式文件转换为Telegram .session格式（或.session + .json）；
- - 多线程工作；
- - 选项：为账户创建新会话，或保持当前会话；
- - 使用、控制和调整用于连接TData的设备设置；
- - 每个会话连接使用独特的HTTP或SOCKS5代理（支持多行）；
- - 如果未连接，跳过错误的TData；
- - 将错误和正确的会话分别排序到不同文件夹；
- - 保存操作日志；
- - 操作前对源文件进行备份。
+ - 将 TDATA（Telegram Desktop）帐户中的 Telegram 帐户会话转换为 SESSION 格式（或 SESSION+JSON）。
+ - 多线程操作。
+ - 为帐户创建新会话或保存当前会话的选项。
+ - 支持在转换或重新授权期间禁用帐户上的其他会话的选项。
+ - 灵活配置用于连接会话的设备模拟。
+ - 配置使用唯一 HTTP 或 SOCKS5 连接会话（支持大量代理）。
+ - 如果无法连接到不良会话，则跳过它们。
+ - 将有效和无效帐户分类到不同的文件夹中。
+ - 保存工作日志的选项。
+ - 转换前创建备份的选项。
 
 
 ## 我们提供 24 小时免费试用期，在此期间，用户每 5 次操作将能够转换 25 个帐户，以在购买前进行测试并确保一切正常。
@@ -29,22 +30,18 @@
 - 2. 365天或10000个账户（以先到者为准）
 - 3. 终身拥有无限账户
 
+
 ## 视频：
 - [YouTube](https://youtu.be/CxmtWd5r3Sg)
 
 
-
 ## 截图：
-
-![TD2S_v 1 6_CN_001](https://github.com/telegram-prime/Telegram-TData-to-Session-Converter-CN/assets/94137664/d255600f-75ef-44e7-8569-4560b749a31c) ![TD2S_v 1 6_CN_002](https://github.com/telegram-prime/Telegram-TData-to-Session-Converter-CN/assets/94137664/b2c036d7-aaa4-4a80-b92a-5f739407b573)
-![TD2S_v 1 6_CN_003](https://github.com/telegram-prime/Telegram-TData-to-Session-Converter-CN/assets/94137664/f9580d69-fc28-4a4c-82d0-2cb1d4894b3e) ![TD2S_v 1 6_CN_004](https://github.com/telegram-prime/Telegram-TData-to-Session-Converter-CN/assets/94137664/05dfc833-fa39-40cf-9292-23813384e5f9)
-
+<img width="799" alt="TD2S_CN_001" src="https://github.com/user-attachments/assets/6fb97107-eb56-407d-95eb-dbf7bc20d2b1" />
 
 
 ##  联系方式:
 - Email:    manager[@]telegramprime.net
 - Telegram: [发送消息](https://telegramprime.com/telegram-contact)
-- ICQ:      [发送消息](https://telegramprime.com/icq-contact)
 - TamTam:   [发送消息](https://telegramprime.com/tamtam-contact)
 - Discord:  [发送消息](https://telegramprime.com/discord-contact)
 - Element:  [发送消息](https://telegramprime.net/element-contact)
