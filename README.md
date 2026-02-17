@@ -1,66 +1,87 @@
-# TD2S转换器 - 将Telegram TDATA账户转换为SESSION（或SESSION+JSON）的转换器。
-## 将 Telegram TDATA 格式文件转换为 Telegram SESSION 格式（或 SESSION+JSON）。
+# S2TD Converter – Telegram **SESSION → TDATA**  
+将 Telegram 会话文件（SESSION 或 SESSION+JSON）转换为 Telegram Prime 及类似客户端使用的 TDATA 格式工具。
 
- * Description is also available in English [see TD2S Coverter EN](https://github.com/telegram-prime/Telegram-TData-to-Session-Converter)
- * Описание программы так же доступно на русском языке. См. [TD2S Coverter RU](https://github.com/telegram-prime/Telegram-TData-to-Session-Converter-RU/)
+---
+
+## 📚 多语言支持
+- 简体中文 – 本页  
+- Русский – [S2TD Converter RU](https://github.com/telegram-prime/Telegram-Session-to-TData-Converter-RU/)  
+- English – [S2TD Converter CN](https://github.com/telegram-prime/Telegram-Session-to-TData-Converter)
+
+---
+
+## ⚙️ 核心功能
+
+| 功能 | 说明 |
+|------|------|
+| **SESSION / SESSION+JSON → TDATA** | 将 Telegram 会话文件转换为 TDATA 文件。 |
+| **多线程** | 并行处理多个文件，提升批量转换速度。 |
+| **设备配置** | 使用并调整用于连接会话的设备设置。 |
+| **冷启动转换** | 可在不连接账号的情况下将 SESSION+JSON 转换为 TDATA。 |
+| **旧层兼容** | 选项可保持旧 Telegram 层或保存为新层。 |
+| **基于 JSON 的设置** | 当存在 JSON 文件时自动导入设备设定。 |
+| **自定义重试 / 延迟** | 设置连接重试次数及两次尝试间的等待时间。 |
+| **禁用其他会话** | 可在转换或重新授权期间断开账号所有其它活跃会话。 |
+| **设备仿真** | 灵活配置用于连接会话的设备仿真方式。 |
+| **代理支持** | 为每一次连接使用唯一的 HTTP 或 SOCKS5 代理（多行列表）。 |
+| **2FA 处理** | 自动从 JSON 文件导入 2FA（JSON 模式）或手动输入（非 JSON 模式）。 |
+| **跳过无效会话** | 若无法连接则直接跳过。 |
+| **结果分类** | 有效账号 → “valid”，无效账号 → “invalid”。 |
+| **日志记录** | 保存完整操作日志，便于排查问题。 |
+| **备份** | 转换前自动备份源文件。 |
+
+---
+
+## ⏱️ 免费试用
+
+- 24 小时免费期  
+- 在试用期间可执行 5 次转换（每次最多 25 个账号）——无风险体验。
+
+---
+
+## 💰 收费方案
+
+| 计划 | 限制 / 时长 |
+|------|-------------|
+| **30 天 / 1 000 次** | 先到先得 |
+| **365 天 / 10 000 次** | 先到先得 |
+| **终身 / Unlimited** | 无限次转换 |
+
+---
+
+## 📥 下载
+
+- **始终最新版** – [GitHub](https://github.com/telegram-prime/Telegram-Session-to-TData-Converter-CN/releases/latest)
+
+---
+
+## 🎬 视频演示
+
+- [YouTube](https://youtu.be/CkEJTBAZ9pc)
+
+---
+
+## 🖼️ 截图
+
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/267c0cea-4f07-41fc-83dd-a3169aeba08e" />
 
 
-## 功能特点:
- - 将 TDATA（Telegram Desktop）帐户中的 Telegram 帐户会话转换为 SESSION 格式（或 SESSION+JSON）。
- - 多线程操作。
- - 为帐户创建新会话或保存当前会话的选项。
- - 可选择保存新帐户会话的 TDATA。基本上用作 TDATA 重新认证功能。
- - 可选择设置自定义连接重试次数和连接延
- - 支持在转换或重新授权期间禁用帐户上的其他会话的选项。
- - 灵活配置用于连接会话的设备模拟。
- - 配置使用唯一 HTTP 或 SOCKS5 连接会话（支持大量代理）。
- - 如果无法连接到不良会话，则跳过它们。
- - 将有效和无效帐户分类到不同的文件夹中。
- - 保存工作日志的选项。
- - 转换前创建备份的选项。
+---
 
+## 📬 联系与支持
 
-## 我们提供 24 小时免费试用期，在此期间，用户每 5 次操作将能够转换 25 个帐户，以在购买前进行测试并确保一切正常。
+| 渠道 | 链接 |
+|------|------|
+| Email | manager[@]telegramprime.net |
+| Telegram | [发送消息](https://telegramprime.net/telegram-contact) |
+| Matrix | [发送消息](https://telegramprime.net/element-contact) |
+| 网站 (EN) | https://telegramprime.net/ |
+| 网站 (RU) | https://telegramprime.com/ |
 
+---
 
-## 下载：
- - [始终最新发布](https://github.com/telegram-prime/Telegram-TData-to-Session-Converter-CN/releases/latest)
+## ☕️ 捐赠
 
-
-## 试用期结束后，该产品可通过多种付费订阅方式使用：
-- 1. 30天或1000个帐户（以先到者为准）
-- 2. 365天或10000个账户（以先到者为准）
-- 3. 终身拥有无限账户
-
-
-## 视频：
-- [YouTube](https://youtu.be/CxmtWd5r3Sg)
-
-
-## 截图：
-<img width="799" alt="TD2S_CN_001" src="https://github.com/user-attachments/assets/6fb97107-eb56-407d-95eb-dbf7bc20d2b1" />
-
-
-##  联系方式:
-- Email:    manager[@]telegramprime.net
-- Telegram: [发送消息](https://telegramprime.com/telegram-contact)
-- TamTam:   [发送消息](https://telegramprime.com/tamtam-contact)
-- Discord:  [发送消息](https://telegramprime.com/discord-contact)
-- Element:  [发送消息](https://telegramprime.net/element-contact)
-
-* 或通过我们网站上的联系表格：
-- Wеb: https://telegramprime.net/ - EN Version
-- Wеb: https://telegramprime.com/ - RU Version
-
-
-## 捐赠:
-* [给我们买杯咖啡 :)](https://nowpayments.io/donation/telegramprime)
-* 谢谢！
-
-
-
-
-
-
-
-
+- **Buy us a coffee** – [Click](https://nowpayments.io/donation/telegramprime)
+   
+感谢您的支持！
