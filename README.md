@@ -56,7 +56,7 @@
 
 ## 🎬 视频演示
 
-- [YouTube](https://youtu.be/hpfbXPWjLqs)
+- [YouTube](https://youtu.be/CxmtWd5r3Sg)
 
 ---
 
